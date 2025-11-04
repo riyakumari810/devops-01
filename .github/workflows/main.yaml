@@ -1,10 +1,8 @@
 name: Deploy to Staging (EC2)
-
 on:
     push:
         branches:
             - main
-            -develop
     workflow_dispatch: {}
 
 concurrency:
